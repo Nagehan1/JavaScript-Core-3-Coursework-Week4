@@ -20,5 +20,5 @@ test("Car sales", function () {
 
   let output = sales(carsSold);
 
-  expect(output).toEqual(totals);
+ expect(output).toEqual(totals) ;
 });
