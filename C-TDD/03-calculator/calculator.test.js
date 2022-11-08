@@ -41,3 +41,25 @@ let result=add(input)
 expect(result).toEqual(55);
 
 })
+
+test ("ignore numbers greater than 1000",function(){
+//arrange
+let input="2,1001"
+//act
+let result=add(input)
+//assertt
+expect(result).toEqual(2);
+
+})
+
+test ("negative numbers with  throw",function(){
+//arrange
+let input="2,-1"
+//act
+let result=add(input)
+//assertt
+expect(function){
+    add(input)
+}).to
+
+})
