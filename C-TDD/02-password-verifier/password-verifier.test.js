@@ -9,4 +9,5 @@ test("verifies a password", function () {
   const receivedResult = verify(password);
   // Assert
   expect(receivedResult).toEqual(expectedResult);
-});
+})
+;
